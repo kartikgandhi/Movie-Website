@@ -1,5 +1,5 @@
 import media
-import index
+import fresh_tomatoes
 
 maze_runner_3 = media.Movie("Maze Runner The Death Cure",
                         "Maze Runner: The Death Cure (also known simply as The Death Cure) is a 2018 American dystopian science fiction action film directed by Wes Ball and written by T.S. Nowlin, based on the novel The Death Cure written by James Dashner.",
@@ -27,4 +27,4 @@ jumanji = media.Movie("Jumanji: Welcome to the Jungle",
                               "https://www.youtube.com/watch?v=v_TJKwJwN0E")
 
 movies=[star_wars,greatest_showman,justice_league,murder_on_the_orient_express,jumanji,maze_runner_3]
-index.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies)
